@@ -10,3 +10,4 @@ for y in range(mah):
          s^=list1[i]     
      bhav.append(s)
 for y in bhav:
+     print(y)
