@@ -13,4 +13,4 @@ for i in bhav:
 if total==0:
     print(bb)
 else:
-    print("it's not possible to sum up coins in such a way that they um upto"cc)
+    print("it's not possible to sum up coins in such way that they um upto"cc)
