@@ -1,4 +1,4 @@
-bhav,eeee=map(int,input().split())
+bhav,sur=map(int,input().split())
 sak=[]
 tel=0
 for i in range(bhav):
