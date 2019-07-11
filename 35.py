@@ -11,7 +11,7 @@ while True:
         else:
             check=False
             ant=ant+1
-            if a1>=len(l1):
+            if ant>=len(l1):
              ant=0
              xen=xen+1
             break
