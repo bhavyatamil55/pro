@@ -15,7 +15,7 @@ for i in range(noo,0,-1) :
     if i == noo :
         Laa[i][Any] = Laa[i][Bh] = Leee[i]
     else :
-        Laa[i][A] = max(Laa[i + 1][Any], Leee[i] + s[i + 1] - Laa[i + 1][Bh])
-        Laa[i][B] = max(Laa[i + 1][Bh], Leee[i] + s[i + 1] - Laa[i + 1][Bh])
+        Laa[i][Any] = max(Laa[i + 1][Any], Leee[i] + s[i + 1] - Laa[i + 1][Bh])
+        Laa[i][Bh] = max(Laa[i + 1][Bh], Leee[i] + s[i + 1] - Laa[i + 1][Bh])
 Amax = s[1] - Laa[1][Bh]
 print(Amax, Laa[1][Bh])
