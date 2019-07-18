@@ -30,7 +30,7 @@ if isPrime(num) :
     sys.exit()
 sun = str(num)[::-1]
 cnt0 = 0
-for c in sun :
+for cc in sun :
     if cc=='0' :
         cnt0 += 1
     else :
