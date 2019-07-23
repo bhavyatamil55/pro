@@ -6,7 +6,7 @@ for i in range(0,nun) :
     Laa.append([])
 L2 = []
 for i in range(0,nun) :
-    aa[i] = [ int(x) for x in input().split()]
+   Laa[i] = [ int(x) for x in input().split()]
 x1 = Laa[0][0]
 y1 = Laa[0][1]
 for i in range(1,nun) :
